@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: #EEE7CE;
+    height: 100vh;
+}
+
+.header{
+    background: #064439;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.header .nav-logo{
+    color: white;
+    font-family: sans-serif;
+    padding: 10px;
+    border-radius: 8px;
+    resize: none;
+    height: 60px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.35), rgba(255, 0, 0, 0.35));
+}
+
+.header .nav-logo .logo{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.header .nav{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header .nav .nav-link{
+    color: #EEE7CE;
+    margin: 10px;
+    font-size: 18px;
+    border-right: 1px solid #EEE7CE;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.header .nav .nav-link:hover{
+    text-decoration: underline;
+}
+
+.main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    top: 0; left: 0; right: 0; bottom: 0;
+}
+
+.main .main-header{
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.main .main-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main .main-body-text{
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 10px;
+}
+
+.main .checkoutBtn{
+    background: #064439;
+    color: #EEE7CE;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.main .products{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    color: #064439;
+}
+
+.product img{
+    width: 100%;
+    height: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.product .buyButton{
+    padding: 5px 15px;
+    background: #064439;
+    color: #EEE7CE;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    background: #064439;
+    color: #EEE7CE;
+    height: 120px;
+    width: 100%;
+    padding: 20px;
+    float: bottom;
+    clear: bottom;
+}
+
+.footer .footer-header{
+    margin: 10px;
+}
+
+.footer .footer-items{
+    display: flex;
+    margin: 0 10px;
+}
+
+.footer .footer-item{
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.footer .footer-item:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
